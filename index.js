@@ -1,3 +1,19 @@
+const deg = 6;
+const hr = document.querySelector("#hr");
+const min = document.querySelector("#mn");
+const sec = document.querySelector("#sc");
+
+setInterval(() => {
+    let day = new Date();
+    let hh = day.getHours() * 30;
+    let mm = day.getMinutes() * deg;
+    let ss = day.getSeconds() * deg;
+
+    hr.style.transform = `rotateZ(${(hh)+(mm/12)}deg)`;
+    min.style.transform = `rotateZ(${(mm)}deg)`;
+    sec.style.transform = `rotateZ(${(ss)}deg)`;
+})
+
 function showTime() {
     var date = new Date();
     var h = date.getHours(); // 0 - 23
@@ -19,8 +35,8 @@ function showTime() {
     s = (s < 10) ? "0" + s : s;
 
     var time = h + ":" + m + ":" + s + " " + session;
-    document.getElementById("MyClockDisplay").innerText = time;
-    document.getElementById("MyClockDisplay").textContent = time;
+    document.getElementById("digital").innerText = time;
+    document.getElementById("digital").textContent = time;
 
     setTimeout(showTime, 1000);
 
