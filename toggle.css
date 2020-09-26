@@ -55,3 +55,9 @@
     background-color: #72da67 !important;
     border-color: #72da67 !important;
 }
+
+@media only screen and (max-width: 600px) {
+    .toggle {
+        margin: -450px auto 0;
+    }
+}
