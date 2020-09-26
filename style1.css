@@ -100,8 +100,8 @@ body {
 
 .container {
     display: flex;
-    width: 75vw;
-    height: 75vw;
+    width: 400px;
+    height: 400px;
     margin: auto;
     justify-content: center;
     align-items: center;
