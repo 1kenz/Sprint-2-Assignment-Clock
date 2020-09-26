@@ -1,6 +1,6 @@
 .toggle {
     position: absolute;
-    margin: -500px auto 0;
+    margin: -600px auto 0;
 }
 
 .toggle [type=checkbox]:not(:checked),
