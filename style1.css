@@ -8,8 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 150px auto;
-/*     min-height: 80vh; */
+    min-height: 80vh;
     background: #091921;
 }
 
@@ -99,12 +98,12 @@ body {
     border-radius: 6px 6px 0 0;
 }
 
-/* .container {
+.container {
     display: flex;
     width: 75vw;
     height: 75vw;
-    margin: 10px auto;
+    margin: auto;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     /* visibility: hidden; */
 }
