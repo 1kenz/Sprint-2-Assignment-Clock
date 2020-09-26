@@ -98,15 +98,6 @@ body {
     border-radius: 6px 6px 0 0;
 }
 
-.container {
-    display: flex;
-    width: 400px;
-    height: 400px;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-}
-
 .dClock {
     position: absolute;
     padding: 30px;
@@ -118,16 +109,5 @@ body {
     font-size: 70px;
     font-family: Orbitron;
     letter-spacing: 7px;
-    display: none;
-}
-
-.analog-sym {
-    width: 50px;
-    display: none;
-}
-
-.digital-sym {
-    width: 100px;
-    right: -150px;
     display: none;
 }
